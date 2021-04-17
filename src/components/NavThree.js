@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import logo from "../assets/images/logo-light.png";
+import logo from "../assets/images/high-view/img/HighViewBar2.png";
 class NavThree extends Component {
   constructor() {
     super();
@@ -47,8 +47,8 @@ class NavThree extends Component {
         <div className="topbar-one">
           <div className="container">
             <div className="topbar-one__left">
-              <a href="#none">needhelp@kipso.com</a>
-              <a href="#none">444 888 0000</a>
+              <a href="mailto:sales@coloradogutter.com">sales@coloradogutter.com</a>
+              <a href="tel:720-741-2300">(720) 741-2300</a>
             </div>
             <div className="topbar-one__right">
               <a href="#none">Login</a>

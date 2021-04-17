@@ -14,11 +14,11 @@ import BrandsTwo from "../components/BrandsTwo";
 import BlogTwo from "../components/BlogTwo";
 import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
-import NavThree from './../components/NavThree';
+import NavThree from "./../components/NavThree";
 
 const HomePage = () => (
-  <Layout pageTitle="Kipso - React Next Online Education Learning & LMS Template">
-   <NavThree/>
+  <Layout pageTitle="High View's Seamless Gutters || Quality Seamless Gutters">
+    <NavThree />
     <SliderOne />
     <AboutTwo />
     <CourseOne />
