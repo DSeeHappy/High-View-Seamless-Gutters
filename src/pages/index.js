@@ -16,6 +16,8 @@ import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
 import NavThree from "./../components/NavThree";
 import CallToActionOne from './../components/CallToActionOne';
+import CourseCatTwo from './../components/CourseCatTwo';
+import CourseCatThree from './../components/CourseCatThree';
 
 const HomePage = () => (
   <Layout pageTitle="High View's Seamless Gutters || Quality Seamless Gutters">
@@ -24,7 +26,7 @@ const HomePage = () => (
     <AboutTwo />
     <CallToActionOne/>
     <Promo />
-    <CourseCatOne />
+    <CourseCatThree />
     <CallToActionThree />
     <BrandsTwo />
     <BlogTwo />
