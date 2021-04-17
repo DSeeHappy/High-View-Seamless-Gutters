@@ -32,7 +32,7 @@ const SliderOne = () => {
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    Let a Gutter Company <br/> take care of your gutters
+                    Let our Gutter Pros <br /> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
                     Everything installed by us is ready to stand the weather
@@ -52,9 +52,9 @@ const SliderOne = () => {
               <div className="banner-one__bubble-3"></div>
               <img src={person2} className="banner-one__person" alt="" />
               <div className="row no-gutters">
-              <div className="col-xl-12">
+                <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    Let a Gutter Company <br/> take care of your gutters
+                    Let our Gutter Pros <br /> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
                     Everything installed by us is ready to stand the weather
@@ -91,7 +91,7 @@ const SliderOne = () => {
       </div>
       <div className="banner-one__cta">
         <div className="banner-one__cta-icon">
-          <i className="kipso-icon-black-graduation-cap-tool-of-university-student-for-head"></i>
+          <i class="fas fa-donate"></i>{" "}
         </div>
         <div className="banner-one__cta-title">
           <h3 className="banner-one__cta-text">

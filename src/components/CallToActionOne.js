@@ -1,5 +1,5 @@
 import React from "react";
-import ctabg1 from "../assets/images/cta-bg-1-1.jpg";
+import ctabg1 from "../assets/images/high-view/img/largeroofA.png";
 const CallToActionOne = () => {
   return (
     <section
@@ -8,13 +8,15 @@ const CallToActionOne = () => {
     >
       <div className="container">
         <h2 className="cta-one__title">
-          Kipso one & only <br />
-          mission is to extend <br />
-          your knowledge base
+          At High View's Seamless Gutters 
+        </h2>
+        <h2 className="cta-one__title">
+          We pride ourselves on masterful
+          installation.
         </h2>
         <div className="cta-one__btn-block">
           <a href="#none" className="thm-btn cta-one__btn">
-            Learn More
+            Receive your Free Online Estimate!
           </a>
         </div>
       </div>

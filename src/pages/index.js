@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import AboutTwo from "../components/AboutTwo";
 import CourseOne from "../components/CourseOne";
 import VideoTwo from "../components/VideoTwo";
-import CountdownKipso from "../components/CountdownKipso";
+import Promo from "../components/Promo";
 import CourseCatOne from "../components/CourseCatOne";
 import CallToActionThree from "../components/CallToActionThree";
 import BrandsTwo from "../components/BrandsTwo";
@@ -15,15 +15,15 @@ import BlogTwo from "../components/BlogTwo";
 import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
 import NavThree from "./../components/NavThree";
+import CallToActionOne from './../components/CallToActionOne';
 
 const HomePage = () => (
   <Layout pageTitle="High View's Seamless Gutters || Quality Seamless Gutters">
     <NavThree />
     <SliderOne />
     <AboutTwo />
-    <CourseOne />
-    <VideoTwo />
-    <CountdownKipso />
+    <CallToActionOne/>
+    <Promo />
     <CourseCatOne />
     <CallToActionThree />
     <BrandsTwo />
