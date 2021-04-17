@@ -149,7 +149,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-image: url(../images/patter-1-1.jpg);
+            background-image: url(../images/high-view/img/house.png);
             opacity: 0.08;
         }
 
@@ -160,7 +160,7 @@
     }
 
     &__title {
-        font-size: 140px;
+        font-size: 6rem;
         line-height: 120px;
         color: #ffffff;
         font-weight: 700;
@@ -225,7 +225,7 @@
         width: 140px;
         height: 140px;
         border-radius: 50%;
-        background-color: #1888c9;
+        background-color: #f38920;
         top: 20%;
         left: -3%;
         animation-name: bubbleMoveOne;
@@ -238,7 +238,7 @@
         width: 34px;
         height: 34px;
         border-radius: 50%;
-        background-color: #7c4bc0;
+        background-color: #f9f9f8;
         right: 35%;
         top: 20%;
         animation-name: bubbleMoveTwo;
@@ -250,7 +250,7 @@
         width: 106px;
         height: 106px;
         border-radius: 50%;
-        border: 24px solid #33a9bb;
+        border: 24px solid #f16101;
         right: 35%;
         bottom: 10%;
         animation-name: globeRotate;

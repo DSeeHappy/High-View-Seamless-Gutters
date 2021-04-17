@@ -28,19 +28,18 @@ const SliderOne = () => {
               <div className="banner-one__bubble-1"></div>
               <div className="banner-one__bubble-2"></div>
               <div className="banner-one__bubble-3"></div>
-              <img src={slidestrech} alt="" className="banner-one__scratch" />
               <img src={person1} className="banner-one__person" alt="" />
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    We Can <br />
-                    Teach You
+                    Let a Gutter Company <br/> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
-                    are you ready to learn?
+                    Everything installed by us is ready to stand the weather
+                    here in Colorado
                   </p>
                   <a href="#none" className="thm-btn banner-one__btn">
-                    Learn More
+                    Check out our Previous Work!
                   </a>
                 </div>
               </div>
@@ -51,19 +50,18 @@ const SliderOne = () => {
               <div className="banner-one__bubble-1"></div>
               <div className="banner-one__bubble-2"></div>
               <div className="banner-one__bubble-3"></div>
-              <img src={slidestrech} alt="" className="banner-one__scratch" />
               <img src={person2} className="banner-one__person" alt="" />
               <div className="row no-gutters">
-                <div className="col-xl-12">
+              <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    We Can <br />
-                    Teach You
+                    Let a Gutter Company <br/> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
-                    are you ready to learn?
+                    Everything installed by us is ready to stand the weather
+                    here in Colorado
                   </p>
                   <a href="#none" className="thm-btn banner-one__btn">
-                    Learn More
+                    Check out our Previous Work!
                   </a>
                 </div>
               </div>
@@ -97,7 +95,7 @@ const SliderOne = () => {
         </div>
         <div className="banner-one__cta-title">
           <h3 className="banner-one__cta-text">
-            <a href="#none">Read how we encourage our students to learn</a>
+            <a href="#none">Financing available up to $65,000, Find out more</a>
           </h3>
         </div>
         <div className="banner-one__cta-link">
