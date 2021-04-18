@@ -70,11 +70,12 @@ module.exports = {
         routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
+    
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
-        color: #f16101,
+        color: `orange`,
         // Disable the loading spinner.
         showSpinner: true,
       },
