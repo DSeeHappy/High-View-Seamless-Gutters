@@ -6,62 +6,78 @@ const Pricing = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Choose the right <br />
-            plan for you
+            Here are a few things you can expect from us:
           </h2>
         </div>
         <div className="row">
           <div className="col-lg-4">
             <div className="pricing-one__single">
               <div className="pricing-one__inner">
-                <h2 className="pricing-one__price">$20.00 </h2>
-                <p className="pricing-one__name">basic pack</p>
+                <h2 className="pricing-one__price"> Simple </h2>
+                <p className="pricing-one__name">Inspection</p>
                 <ul className="pricing-one__list list-unstyled">
-                  <li>3 Full Courses</li>
-                  <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
-                  <li>9 Days Time</li>
+                  <li>
+                    We will provide you a full explanation of our recommended
+                    solutions.
+                  </li>
+                  <hr />
+                  <li>
+                    No hard sales tactics only honest information based on your
+                    homes needs.
+                  </li>
                 </ul>
-                <a href="#none" className="thm-btn pricing-one__btn">
-                  Choose Plan
-                </a>
-                <p className="pricing-one__tag-line">No hidden charges!</p>
+
+                <p className="pricing-one__tag-line">
+                  Because we know that it is not just the gutters we are
+                  affecting but the beauty and the longevity of the home.
+                </p>
               </div>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="pricing-one__single">
               <div className="pricing-one__inner">
-                <h2 className="pricing-one__price">$30.00 </h2>
-                <p className="pricing-one__name">medium pack</p>
+                <h2 className="pricing-one__price">Quality </h2>
+                <p className="pricing-one__name">
+                  The best technicians in the business
+                </p>
                 <ul className="pricing-one__list list-unstyled">
-                  <li>3 Full Courses</li>
-                  <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
-                  <li>9 Days Time</li>
+                  <li>
+                    With High View Construction, you know you are getting the
+                    highest quality service at a reasonable price.
+                  </li>
                 </ul>
-                <a href="#none" className="thm-btn pricing-one__btn">
-                  Choose Plan
-                </a>
-                <p className="pricing-one__tag-line">No hidden charges!</p>
+
+                <p className="pricing-one__tag-line">
+                  No matter the weather, High View is here ready for any and all
+                  your repair needs.
+                </p>
               </div>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="pricing-one__single">
               <div className="pricing-one__inner">
-                <h2 className="pricing-one__price">$40.00 </h2>
-                <p className="pricing-one__name">premium pack</p>
+                <h2 className="pricing-one__price">Clean </h2>
+                <p className="pricing-one__name">
+                  A full clean up and follow up after every job
+                </p>
                 <ul className="pricing-one__list list-unstyled">
-                  <li>3 Full Courses</li>
-                  <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
-                  <li>9 Days Time</li>
+                  <li>
+                    We understand you work hard to keep your home looking nice,
+                    we make sure to keep it that way.
+                  </li>
+                  <li>
+                    Our technicians will always inspect your home before leaving
+                    to ensure there is no remaining debris.
+                  </li>
                 </ul>
-                <a href="#none" className="thm-btn pricing-one__btn">
-                  Choose Plan
-                </a>
-                <p className="pricing-one__tag-line">No hidden charges!</p>
+
+                <p className="pricing-one__tag-line">
+                  We want to make sure you’re 100% satisfied, and we go the
+                  extra mile to make your experience as enjoyable and
+                  stress-free as possible.
+                </p>
               </div>
             </div>
           </div>
