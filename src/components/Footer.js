@@ -5,6 +5,7 @@ import footer3 from "../assets/images/footer-1-3.png";
 import footer4 from "../assets/images/footer-1-4.png";
 import footer5 from "../assets/images/footer-1-5.png";
 import footer6 from "../assets/images/footer-1-6.png";
+import { Link } from "gatsby"
 
 const Footer = () => {
   function scrollTop() {
@@ -16,115 +17,92 @@ const Footer = () => {
         <div className="site-footer__upper">
           <div className="container">
             <div className="row">
-              <div className="col-xl-3 col-lg-6 col-sm-12">
+              <div className="col-xl-4 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__contact">
-                  <h2 className="footer-widget__title">Courses</h2>
+                  <h2 className="footer-widget__title">Contact Us</h2>
+
                   <ul className="list-unstyled footer-widget__course-list">
                     <li>
-                      <h2>
-                        <a href="course-details.html">
-                          Introduction Web Design
-                        </a>
-                      </h2>
-                      <p>Mike Hardson</p>
+                      <h2>Owner</h2>
+                      <p>Gilberto Sanchez</p>
+                      <a href="mailto:gilbertosancheza@coloradogutter.com">
+                        <p>GilbertoSanchez@ColoradoGutter.com </p>
+                      </a>
+                      <a href="tel:720-712-4815">
+                        {" "}
+                        <p>(720) 712-4815 </p>
+                      </a>
                     </li>
                     <li>
-                      <h2>
-                        <a href="course-details.html">
-                          {" "}
-                          Learning MBA Management{" "}
-                        </a>
-                      </h2>
-                      <p>Jessica Brown</p>
+                      <h2>Project Manager</h2>
+                      <p>Sam Avila</p>
+
+                      <a href="mailto:samavila@coloradogutter.com">
+                        <p>SamAvila@ColoradoGutter.com </p>
+                      </a>
+                      <a href="tel:720-854-5683">
+                        <p>(720) 854 5683 </p>
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-6 col-sm-12">
+              <div className="col-xl-2 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__link">
                   <h2 className="footer-widget__title">Explore</h2>
                   <div className="footer-widget__link-wrap">
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
-                        <a href="#none">About</a>
+                        <Link href="/">
+                          <a>Home</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Overview</a>
+                        <Link href="/residential">
+                          <a>Residential</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Teachers</a>
+                        <Link href="/commercial">
+                          <a>Commercial</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Join Us</a>
+                        <Link href="/about">
+                          <a>About Us</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Our News</a>
-                      </li>
-                    </ul>
-                    <ul className="list-unstyled footer-widget__link-list">
-                      <li>
-                        <a href="#none">Help </a>
+                        <Link href="/contact">
+                          <a>Contact Us</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Contact</a>
+                        <Link href="/blog">
+                          <a>Blog</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#none">Register Now</a>
+                        <Link href="/faq">
+                          <a>Faq</a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-6 col-sm-12">
-                <div className="footer-widget footer-widget__gallery">
-                  <h2 className="footer-widget__title">Gallery</h2>
-                  <ul className="list-unstyled footer-widget__gallery-list">
-                    <li>
-                      <a href="#none">
-                        <img src={footer1} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer2} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer3} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer4} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer5} alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#none">
-                        <img src={footer6} alt="" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
-                    Lorem ipsum dolor sit ametcon, sectetur adipiscing elit.
-                    Phasellus vehic sagittis euismod.
+                    2018 was the year Gilberto Sanchez decided to start his own
+                    business. With over 10 years of experience Gilberto felt he
+                    could provide a better customer experience with High View
+                    Construction.
                   </p>
                   <div className="footer-widget__btn-block">
-                    <a href="#none" className="thm-btn">
-                      Contact
-                    </a>
-                    <a href="#none" className="thm-btn">
-                      Purchase
+                    <a href="tel:720-741-2300" className="thm-btn">
+                      Call Now
                     </a>
                   </div>
                 </div>
@@ -135,52 +113,29 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
+              &copy; Copyright 2021 by{" "}
+              <a href="https://dseehappy.com">DSeeHappy.com</a>
             </p>
+
             <div className="site-footer__social">
               <div
                 onClick={scrollTop}
-                onKeyDown={scrollTop}
-                role="button"
-                tabIndex={0}
                 className="scroll-to-target site-footer__scroll-top"
               >
                 <i className="kipso-icon-top-arrow"></i>
               </div>
 
-              <a href="#none">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#none">
+              <a href="https://www.facebook.com/HighViewSeamlessGutters">
                 <i className="fab fa-facebook-square"></i>
               </a>
-              <a href="#none">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-              <a href="#none">
+
+              <a href="https://www.instagram.com/HighViewSeamlessGutters/">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
           </div>
         </div>
       </footer>
-
-      <div className="search-popup">
-        <div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
-        <div className="search-popup__inner">
-          <form action="#" className="search-popup__form">
-            <input
-              type="text"
-              name="search"
-              placeholder="Type here to Search...."
-            />
-            <button type="submit">
-              <i className="kipso-icon-magnifying-glass"></i>
-            </button>
-            <div className="cancel"></div>
-          </form>
-        </div>
-      </div>
     </div>
   );
 };
