@@ -5,7 +5,7 @@ class NavThree extends Component {
   constructor() {
     super();
     this.state = {
-      sticky: false
+      sticky: false,
     };
   }
   componentDidMount() {
@@ -22,11 +22,11 @@ class NavThree extends Component {
   handleScroll = () => {
     if (window.scrollY > 70) {
       this.setState({
-        sticky: true
+        sticky: true,
       });
     } else if (window.scrollY < 70) {
       this.setState({
-        sticky: false
+        sticky: false,
       });
     }
   };
@@ -47,7 +47,9 @@ class NavThree extends Component {
         <div className="topbar-one">
           <div className="container">
             <div className="topbar-one__left">
-              <a href="mailto:sales@coloradogutter.com">sales@coloradogutter.com</a>
+              <a href="mailto:sales@coloradogutter.com">
+                sales@coloradogutter.com
+              </a>
               <a href="tel:720-741-2300">(720) 741-2300</a>
             </div>
             <div className="topbar-one__right">
@@ -68,7 +70,7 @@ class NavThree extends Component {
                   src={logo}
                   className="main-logo"
                   width="128"
-                  alt="Awesome alter text"
+                  alt="High View's Seamless Gutters Denver Colorado Logo"
                 />
               </Link>
               <button className="menu-toggler" data-target=".main-navigation">
@@ -79,51 +81,26 @@ class NavThree extends Component {
               <ul className=" navigation-box">
                 <li className="current">
                   <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <a href="#none">Residential</a>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/">Home 01</Link>
+                      <Link to="/about">Seamless Gutters</Link>
                     </li>
                     <li>
-                      <Link to="/index-2">Home 02</Link>
+                      <Link to="/gallery">Gutter Guards</Link>
                     </li>
                     <li>
-                      <Link to="/index-3">Home 03</Link>
+                      <Link to="/pricing">French Drains</Link>
                     </li>
                     <li>
-                      <a href="#none">Header Versions</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to="/">Header 01</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-2">Header 02</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-3">Header 03</Link>
-                        </li>
-                      </ul>
+                      <Link to="/faq">Fascia &amp; Soffit</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#none">Pages</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/about">About Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link to="/pricing">Pricing Plans</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ'S</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="courses.html">Courses</a>
+                  <a href="courses.html">Commercial</a>
                   <ul className="sub-menu">
                     <li>
                       <Link to="/courses">Courses</Link>
@@ -134,21 +111,10 @@ class NavThree extends Component {
                   </ul>
                 </li>
                 <li>
-                  <a href="teachers.html">Teachers</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/teachers">Teachers</Link>
-                    </li>
-                    <li>
-                      <Link to="/teacher-details">Teachers Details</Link>
-                    </li>
-                    <li>
-                      <Link to="/become-teacher">Become Teacher</Link>
-                    </li>
-                  </ul>
+                  <a href="teachers.html">About</a>
                 </li>
                 <li>
-                  <a href="news.html">News</a>
+                  <a href="news.html">Portfolio</a>
                   <ul className="sub-menu">
                     <li>
                       <Link to="/news">News Page</Link>
@@ -159,7 +125,26 @@ class NavThree extends Component {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <a href="news.html">Financing</a>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/news">News Page</Link>
+                    </li>
+                    <li>
+                      <Link to="/news-details">News Details</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="news.html">Service Area</a>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/news">News Page</Link>
+                    </li>
+                    <li>
+                      <Link to="/news-details">News Details</Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -171,9 +156,7 @@ class NavThree extends Component {
                 <a href="#none">
                   <i className="fab fa-facebook-square"></i>
                 </a>
-                <a href="#none">
-                  <i className="fab fa-pinterest-p"></i>
-                </a>
+
                 <a href="#none">
                   <i className="fab fa-instagram"></i>
                 </a>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 
 const Footer = () => {
   function scrollTop() {
@@ -19,6 +19,8 @@ const Footer = () => {
                   <ul className="list-unstyled footer-widget__course-list">
                     <li>
                       <h2>Owner</h2>
+                      <h2>Project Manager</h2>
+
                       <p>Gilberto Sanchez</p>
                       <a href="mailto:gilbertosancheza@coloradogutter.com">
                         <p>GilbertoSanchez@ColoradoGutter.com </p>
@@ -29,6 +31,8 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
+                      <h2>Owner</h2>
+
                       <h2>Project Manager</h2>
                       <p>Sam Avila</p>
 
@@ -107,10 +111,10 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container">
-            <p className="site-footer__copy">
-              &copy; Copyright 2021 by{" "}
-              <a href="https://dseehappy.com">DSeeHappy.com</a>
-            </p>
+            <a href="https://dseehappy.com">
+              {" "}
+              <p className="site-footer__copy">&copy; Copyright 2021 by DSeeHappy.com</p>
+            </a>
 
             <div className="site-footer__social">
               <div
