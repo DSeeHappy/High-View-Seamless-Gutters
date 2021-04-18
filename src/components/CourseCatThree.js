@@ -67,7 +67,7 @@ const CourseCatThree = () => {
                   <a href="#none">French Drains</a>
                 </h3>
                 <p className="course-category-three__text">
-                  NEW-CONSTRUCTION AND PRE-EXISTING HOMES
+                  New-Construction &amp; Pre-Existing Homes
                 </p>
               </div>
             </div>

@@ -15,22 +15,23 @@ import BlogTwo from "../components/BlogTwo";
 import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
 import NavThree from "./../components/NavThree";
-import CallToActionOne from './../components/CallToActionOne';
-import CourseCatTwo from './../components/CourseCatTwo';
-import CourseCatThree from './../components/CourseCatThree';
+import CallToActionOne from "./../components/CallToActionOne";
+import CallToActionTwo from "./../components/CallToActionTwo";
+import CourseCatTwo from "./../components/CourseCatTwo";
+import CourseCatThree from "./../components/CourseCatThree";
+import CallToActionSix from "./../components/CallToActionSix";
+import CallToActionFive from './../components/CallToActionFive';
 
 const HomePage = () => (
   <Layout pageTitle="High View's Seamless Gutters || Quality Seamless Gutters">
     <NavThree />
     <SliderOne />
     <AboutTwo />
-    <CallToActionOne/>
+    <CallToActionOne />
     <Promo />
     <CourseCatThree />
-    <CallToActionThree />
-    <BrandsTwo />
-    <BlogTwo />
-    <CallToActionFour />
+    <CallToActionTwo />
+    
     <SubscribeOne />
     <Footer />
   </Layout>
