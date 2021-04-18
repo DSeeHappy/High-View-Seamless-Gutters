@@ -14,6 +14,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `l0xu8zlvprjp`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "270924647921219",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -70,7 +84,7 @@ module.exports = {
         routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
-    
+
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
