@@ -1,10 +1,5 @@
 import React from "react";
-import footer1 from "../assets/images/footer-1-1.png";
-import footer2 from "../assets/images/footer-1-2.png";
-import footer3 from "../assets/images/footer-1-3.png";
-import footer4 from "../assets/images/footer-1-4.png";
-import footer5 from "../assets/images/footer-1-5.png";
-import footer6 from "../assets/images/footer-1-6.png";
+
 import { Link } from "gatsby"
 
 const Footer = () => {
