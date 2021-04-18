@@ -17,7 +17,7 @@ const CallToActionTwo = () => {
                   Professional Emergency Repair
                 </h2>
                 <p className="cta-two__text">
-                  High View Construction has extensive experience in the repair,
+                  High View's Seamless Gutters has extensive experience in the repair,
                   maintenance, or replacement especially in emergency
                   situations.
                 </p>
@@ -44,7 +44,7 @@ const CallToActionTwo = () => {
                   Locally Owned Colorado Business
                 </h2>
                 <p className="cta-two__text">
-                  We are High View Construction and we've been installing
+                  We are High View's Seamless Gutters and we've been installing
                   gutters here in Colorado since 2018.
                 </p>
                 <hr />
