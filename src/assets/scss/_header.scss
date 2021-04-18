@@ -419,13 +419,13 @@
         color: #fff;
 
         &:hover {
-            color: $thm-base-color;
+            color: $thm-base-color-2;
         }
     }
 
     .header-navigation ul.navigation-box>li.current>a,
     .header-navigation ul.navigation-box>li:hover>a {
-        color: $thm-base-color;
+        color: $thm-base-color-2;
     }
 
     .stricked-menu {

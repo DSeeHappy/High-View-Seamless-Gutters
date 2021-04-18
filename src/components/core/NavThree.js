@@ -79,25 +79,25 @@ class NavThree extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="">
-                  <Link to="/">Home</Link>
-                </li>
                 <li>
-                  <Link to="/residential-services">Residential</Link>
+                  <Link to="/services">Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/about">Seamless Gutters</Link>
+                      <Link to="/services/Seamless-Gutters">Seamless Gutters</Link>
                     </li>
                     <li>
-                      <Link to="/gallery">Gutter Guards</Link>
+                      <Link to="/services/Gutter-Guards">Gutter Guards</Link>
                     </li>
                     <li>
-                      <Link to="/pricing">French Drains</Link>
+                      <Link to="/services/French-Drains">French Drains</Link>
                     </li>
                     <li>
-                      <Link to="/faq">Fascia &amp; Soffit</Link>
+                      <Link to="/services/Fascia-Soffit">Fascia &amp; Soffit</Link>
                     </li>
                   </ul>
+                </li>
+                <li className="">
+                  <Link to="/residential-services">Residential</Link>
                 </li>
                 <li>
                   <Link to="/commercial-services">Commercial</Link>
