@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import ClientStripe from "../assets/images/circle-stripe.png";
-import aboutImage1 from "../assets/images/about-2-1.jpg";
-import aboutImage2 from "../assets/images/about-2-2.jpg";
+import aboutImage1 from "../assets/images/high-view/img/rainonroof.png";
+import aboutImage2 from "../assets/images/high-view/img/closeupgutters.png";
 
 class AboutOne extends Component {
   constructor() {
     super();
     this.state = {
-      startCounter: false
+      startCounter: false,
     };
   }
 
@@ -26,8 +26,7 @@ class AboutOne extends Component {
         <div className="container text-center">
           <div className="block-title text-center">
             <h2 className="block-title__title">
-              Let’s do study with <br />
-              expert teachers
+              High View's Quality Seamless Gutters
             </h2>
           </div>
           <div className="about-one__img">
@@ -46,29 +45,24 @@ class AboutOne extends Component {
                   offset={{ top: 10 }}
                   delayedCall
                 >
-                  <CountUp end={this.state.startCounter ? 88750 : 0} />
+                  <CountUp end={this.state.startCounter ? 2750 : 0} />
                 </VisibilitySensor>
               </p>
-              <div className="about-one__review-stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-              </div>
-              <p className="about-one__review-text">students loved us</p>
+            
+              <p className="about-one__review-text">Colorado Ready Gutters</p>
             </div>
           </div>
           <p className="about-one__text">
-            There are many variations of passages of lorem ipsum available, but
-            the majority have
-            <br />
-            suffered alteration in some form, by injected humour words which
-            don't look even slightly <br /> believable. Lorem Ipsn gravida nibh
-            vel velit auctor aliquetn auci elit cons.
+            No matter the weather, High View is here ready for any and all your
+            repair needs.
+          </p>
+          <hr />
+          <p className="about-one__text">
+            We want to make sure you’re 100% satisfied, and we go the extra mile
+            to make your experience as enjoyable and stress-free as possible.
           </p>
           <a href="#none" className="thm-btn about-one__btn">
-            Start Learning Now
+            Receive Your Free Online Quote!
           </a>
         </div>
       </section>

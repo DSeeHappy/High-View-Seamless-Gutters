@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from "../../components/core/Layout";
-import NavOne from "../../components/NavOne";
+import NavOne from "../../components/core/NavThree";
 import PageHeader from "../../components/PageHeader";
 import AboutOne from "../../components/AboutOne";
 import Footer from "../../components/core/Footer";
@@ -12,13 +12,11 @@ import CallToActionOne from "../../components/CallToActionOne";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Kipso | About">
+        <Layout pageTitle="High View's Seamless Gutters | About">
             <NavOne />
             <PageHeader title="About" />
             <AboutOne />
             <TeamOne />
-            <VideoOne />
-            <BrandsTwo />
             <TestimonialOne />
             <CallToActionOne />
             <Footer />
