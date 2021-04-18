@@ -83,7 +83,7 @@ class NavThree extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/residential-services">Residential</Link>
+                  <Link to="/residential-services">Residential</Link>
                   <ul className="sub-menu">
                     <li>
                       <Link to="/about">Seamless Gutters</Link>
@@ -100,51 +100,48 @@ class NavThree extends Component {
                   </ul>
                 </li>
                 <li>
-                  <a href="courses.html">Commercial</a>
+                  <Link to="/commercial-services">Commercial</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/gallery">Portfolio</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/courses">Courses</Link>
+                      <a href="https://www.instagram.com/HighViewSeamlessGutters/">
+                        Instagram
+                      </a>
                     </li>
                     <li>
-                      <Link to="/course-details">Courses Details</Link>
+                      <a href="https://www.facebook.com/HighViewSeamlessGutters">
+                        Facebook
+                      </a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="teachers.html">About</a>
-                </li>
-                <li>
-                  <a href="news.html">Portfolio</a>
+                  <Link to="/financing">Financing</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/news">News Page</Link>
+                      <Link to="/financing/GreenSky-6-Months-No-Interest-Financing">
+                        6-Months No-Interest Finanacing
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/news-details">News Details</Link>
+                      <Link to="/financing/GreenSky-12-Months-No-Interest-Financing">
+                        12-Months No-Interest Finanacing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/financing/GreenSky-138-Months-Extended-Financing">
+                        138-Months Extended Finanacing
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="news.html">Financing</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/news">News Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/news-details">News Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="news.html">Service Area</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/news">News Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/news-details">News Details</Link>
-                    </li>
-                  </ul>
+                  <Link to="/service-area">Service Area</Link>
                 </li>
               </ul>
             </div>
