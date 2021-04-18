@@ -109,12 +109,12 @@ class NavThree extends Component {
                   <Link to="/gallery">Portfolio</Link>
                   <ul className="sub-menu">
                     <li>
-                      <a href="https://www.instagram.com/HighViewSeamlessGutters/">
+                      <a target="__blank" href="https://www.instagram.com/HighViewSeamlessGutters/">
                         Instagram
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/HighViewSeamlessGutters">
+                      <a target="__blank" href="https://www.facebook.com/HighViewSeamlessGutters">
                         Facebook
                       </a>
                     </li>
