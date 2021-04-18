@@ -79,11 +79,11 @@ class NavThree extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="current">
+                <li className="">
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="#none">Residential</a>
+                  <Link href="/residential-services">Residential</Link>
                   <ul className="sub-menu">
                     <li>
                       <Link to="/about">Seamless Gutters</Link>

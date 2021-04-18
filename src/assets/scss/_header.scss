@@ -130,7 +130,7 @@
 
         &.current>a,
         &:hover>a {
-            color: $thm-base-color;
+            color: $thm-base-color-2;
 
         }
 
@@ -235,7 +235,7 @@
 }
 
 .site-header__decor-inner-3::before {
-    background-color: #7c4bc0;
+    background-color: $thm-base-color-2;
 }
 
 .header__social {
