@@ -14,7 +14,6 @@ const CommercialPage = () => {
       <PageHeader title="Commercial" />
       <BecomeTeacher />
       <CourseCatThree />
-      <TeamTab />
       <Footer />
     </Layout>
   );

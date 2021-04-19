@@ -104,6 +104,15 @@ class NavThree extends Component {
                 </li>
                 <li>
                   <Link to="/about">About</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/about/Gilberto-Sanchez">Gilberto Sanchez</Link>
+                    </li>
+                    <li>
+                      <Link to="/about/Sam-Avila">Sam Avila</Link>
+                    </li>
+                    
+                  </ul>
                 </li>
                 <li>
                   <Link to="/gallery">Portfolio</Link>
