@@ -11,37 +11,37 @@
     &__carousel {
         .color-1 {
             .course-one__category {
-                background-color: #7c4bc0;
+                background-color: $thm-base-color-2;
             }
         }
 
         .color-2 {
             .course-one__category {
-                background-color: #1888c9;
+                background-color: $thm-base-color-2;
             }
         }
 
         .color-3 {
             .course-one__category {
-                background-color: #d23f3f;
+                background-color: $thm-base-color-2;
             }
         }
 
         .color-4 {
             .course-one__category {
-                background-color: #2da397;
+                background-color: $thm-base-color-2;
             }
         }
 
         .color-5 {
             .course-one__category {
-                background-color: #d23f3f;
+                background-color: $thm-base-color-2;
             }
         }
 
         .color-6 {
             .course-one__category {
-                background-color: #33a9bb;
+                background-color: $thm-base-color-2;
             }
         }
     }
@@ -49,37 +49,37 @@
     [class*=col-lg-] {
         &:nth-child(1) {
             .course-one__category {
-                background-color: #7c4bc0;
+                background-color: $thm-base-color-2;
             }
         }
 
         &:nth-child(2) {
             .course-one__category {
-                background-color: #1888c9;
+                background-color: $thm-base-color-2;
             }
         }
 
         &:nth-child(3) {
             .course-one__category {
-                background-color: #d23f3f;
+                background-color: $thm-base-color-2;
             }
         }
 
         &:nth-child(4) {
             .course-one__category {
-                background-color: #2da397;
+                background-color: $thm-base-color-2;
             }
         }
 
         &:nth-child(5) {
             .course-one__category {
-                background-color: #d23f3f;
+                background-color: $thm-base-color-2;
             }
         }
 
         &:nth-child(6) {
             .course-one__category {
-                background-color: #33a9bb;
+                background-color: $thm-base-color-2;
             }
         }
     }
