@@ -1,5 +1,7 @@
 import React from "react";
 import FinancingFaq from "../components/FinancingFaq";
+import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const CourseDetails = (props) => {
   return (
@@ -29,9 +31,9 @@ const CourseDetails = (props) => {
                 </div>
               </div>
               <div className="course-one__image">
-                <img
-                  src="/assets/img/High-View-Seamless-Gutter-GreenSky-Financing-Agreement-Image-770x447.png"
-                  alt=""
+                <StaticImage
+                  src="../assets/images/high-view/img/High-View-Seamless-Gutter-GreenSky-Financing-Agreement-Image-770x447.png"
+                  alt="GreenSky Financing for High View's Seamless Gutters and services in Colorado, up to $65,000"
                 />
               </div>
 
@@ -50,12 +52,7 @@ const CourseDetails = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    className=""
-                    role="tab"
-                    data-toggle="tab"
-                    href="#services"
-                  >
+                  <a className="" role="tab" data-toggle="tab" href="#services">
                     Services
                   </a>
                 </li>
@@ -351,8 +348,8 @@ const CourseDetails = (props) => {
               <h2 className="course-details__list-title">Financing Options</h2>
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img
-                    src="/assets/img/GreenSky-Logo-66x66.png"
+                  <StaticImage
+                    src="../assets/images/high-view//img/GreenSky-Logo-66x66.png"
                     alt="GreenSky Financing-Logo |Financing For High View's Seamless Gutters "
                   />
                 </div>
@@ -361,14 +358,14 @@ const CourseDetails = (props) => {
                     from <span>GreenSky Financing</span>
                   </a>
                   <h3>
-                    <a href="#">Marketing strategies</a>
+                    <Link href={props.financeLinkURL}>{props.financeLink}</Link>
                   </h3>
                 </div>
               </div>
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img
-                    src="/assets/img/GreenSky-Logo-66x66.png"
+                  <StaticImage
+                    src="../assets/images/high-view//img/GreenSky-Logo-66x66.png"
                     alt="GreenSky Financing-Logo |Financing For High View's Seamless Gutters "
                   />
                 </div>
@@ -377,7 +374,9 @@ const CourseDetails = (props) => {
                     from <span>GreenSky Financing</span>
                   </a>
                   <h3>
-                    <a href="#">Marketing strategies</a>
+                    <Link href={props.financeLink2URL}>
+                      {props.financeLink2}
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -395,26 +394,7 @@ const CourseDetails = (props) => {
         the loans on behalf of participating lenders. NMLS #1416362
       </p>
       <br />
-      <p className="text-center">
-        Subject to credit approval. Subject to credit approval. Interest is
-        billed during the promotional period but all interest is waived if the
-        purchase amount is paid in full within 6 months. There are no required
-        minimum monthly payments during the promotional period.
-      </p>
-      <p className="text-center">
-        Subject to credit approval. Interest is billed during the promotional
-        period but all interest is waived if the purchase amount is paid in full
-        within 12 months. Minimum monthly payments required during the
-        promotional period. Making minimum monthly payments during the
-        promotional period will not pay off the entire principal balance.
-      </p>
-      <p className="text-center">
-        Subject to credit approval. Subject to credit approval. Fixed interest
-        rate of 9.99% for 138 months. Payment example assumes one time $10,000
-        purchase on approval date (APR 10.07%) with 1 payment of $161.15
-        followed by 137 amortized payments of $122.15. Payments assume Account
-        Activation charge of $39 applies and is due with first required payment.
-      </p>
+      <p className="text-center">{props.financeInfo}</p>
     </section>
   );
 };
