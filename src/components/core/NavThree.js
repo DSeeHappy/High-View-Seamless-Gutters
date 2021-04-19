@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import logo from "../../assets/images/high-view/img/HighViewBar2.png";
+import logo from "../../assets/images/high-view/img/High-View-Logo-White.png";
 class NavThree extends Component {
   constructor() {
     super();
