@@ -10,7 +10,7 @@ import CallToActionOne from "../../components/CallToActionOne";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="High View's Seamless Gutters || About">
+    <Layout pageTitle="Gilberto Sanchez || High View's Seamless Gutters || About">
       <NavThree />
       <PageHeader title="Gilberto Sanchez" />
       <AboutOne />
