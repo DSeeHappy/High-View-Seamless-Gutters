@@ -91,10 +91,11 @@ const Contact = () => {
         </div>
       </section>
       <h2 className="contact-one__title text-center">
-           While we are based in Denver, we also service up to Fort Collins and down to Colorado Springs
-          </h2>
+        While we are based in Denver, we also service up to Fort Collins and
+        down to Colorado Springs
+      </h2>
       <iframe
-        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJt1YYm3QUQIcR_6eQSTGDVMc&key=AIzaSyAeuKE-CjeAf5dYzDPR7iKfACs8I5HPDNk"
+        src="https://www.google.com/maps/embed/v1/search?q=Colorado%2C%20USA&key=AIzaSyAeuKE-CjeAf5dYzDPR7iKfACs8I5HPDNk"
         className="google-map__contact"
         allowFullScreen=""
       ></iframe>
