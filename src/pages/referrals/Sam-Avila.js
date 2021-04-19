@@ -8,10 +8,9 @@ import NavThree from "../../components/core/NavThree";
 const SamAvilaReferrals = () => {
   return (
     <>
-      <Layout pageTitle="High View's Seamless Gutters | Gallery">
+      <Layout pageTitle="High View's Seamless Gutters | Referrals">
         <NavThree />
-        <PageHeader title="Service Area" />
-        <Gallery />
+        <PageHeader title="Referrals" />
         <Footer />
       </Layout>{" "}
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import team1 from "../assets/images/team-1-1.jpg";
 import team2 from "../assets/images/team-1-2.jpg";
-
+import {Link} from "gatsby";
 const TeamOne = () => {
   return (
     <section className="team-one team-one__become-teacher">
@@ -20,7 +20,7 @@ const TeamOne = () => {
               </div>
               <div className="team-one__content">
                 <h2 className="team-one__name">
-                  <a href="/teacher-details">Gilberto Sanchez</a>
+                  <Link to="/about/Gilberto-Sanchez">Gilberto Sanchez</Link>
                 </h2>
                 <p className="team-one__designation">Owner | Project Manager</p>
                 <a href="tel:720-741-2300">
@@ -59,7 +59,7 @@ const TeamOne = () => {
               </div>
               <div className="team-one__content">
                 <h2 className="team-one__name">
-                  <a href="/teacher-details">Sam Avila</a>
+                  <Link to="/about/Sam-Avila">Sam Avila</Link>
                 </h2>
                 <p className="team-one__designation">Owner | Project Manager</p>
                 <a href="tel:720-741-2300">
