@@ -6,16 +6,16 @@ import AboutOne from "../../components/AboutOne";
 import Footer from "../../components/core/Footer";
 import TeamTab from "../../components/TeamTab";
 import TestimonialOne from "../../components/TestimonialOne";
-import CallToActionOne from "../../components/SamAboutCTA";
-import Contact from './../../components/SamContactAbout';
+import SamAboutCTA from "../../components/SamAboutCTA";
+import SamContactAbout from './../../components/SamContactAbout';
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="Sam Avila || High View's Seamless Gutters || About">
       <NavThree />
       <PageHeader title="Sam Avila" />
-      <CallToActionOne />
-      <Contact />
+      <SamAboutCTA />
+      <SamContactAbout />
       <TestimonialOne />
       <Footer />
     </Layout>

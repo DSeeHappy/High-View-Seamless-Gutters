@@ -70,10 +70,10 @@
 
     [class*=col-lg-]:nth-child(3) {
         .contact-info-one__icon {
-            background-color: #7c4bc0;
+            background-color: $thm-base-color;
 
             &::before {
-                border-color: #7c4bc0;
+                border-color: $thm-base-color;
             }
         }
     }
