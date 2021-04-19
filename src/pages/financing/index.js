@@ -3,7 +3,7 @@ import Layout from "../../components/core/Layout";
 import NavOne from "../../components/NavOne";
 import PageHeader from "../../components/PageHeader";
 import Footer from "../../components/core/Footer";
-import FinanceSelect from "../../components/FinanceSelects";
+import FinanceSelect from "../../components/FinanceSelect";
 import NavThree from "../../components/core/NavThree";
 
 const FinancingPage = () => {

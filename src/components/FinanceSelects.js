@@ -1,18 +1,8 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
-import course1 from "../assets/images/course-1-1.jpg";
-import course2 from "../assets/images/course-1-2.jpg";
-import course3 from "../assets/images/course-1-3.jpg";
-import course4 from "../assets/images/course-1-4.jpg";
-import course5 from "../assets/images/course-1-5.jpg";
-import course6 from "../assets/images/course-1-6.jpg";
-import team1 from "../assets/images/team-1-1.jpg";
-import team2 from "../assets/images/team-1-2.jpg";
-import team3 from "../assets/images/team-1-3.jpg";
-import team4 from "../assets/images/team-1-4.jpg";
-import team5 from "../assets/images/team-1-5.jpg";
-import team6 from "../assets/images/team-1-6.jpg";
+
+import { StaticImage } from "gatsby-plugin-image";
 
 import { Link } from "gatsby";
 
@@ -75,8 +65,9 @@ const CourseThree = () => {
               <div className="item">
                 <div className="course-one__single color-1">
                   <div className="course-one__image">
-                    <img
-                      src="/assets/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
+                    <StaticImage
+                      
+                      src="../assets/images/high-view/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
                       alt="GreenSky Financing For High View's Seamless Gutters Services 6 Months Interest Free Financing"
                     />
                   </div>
@@ -90,7 +81,7 @@ const CourseThree = () => {
                     </a>
 
                     <h2 className="course-one__title">
-                      <Link href="/financing/GreenSky-6-Months-No-Interest-Financing">
+                      <Link href="financing/GreenSky-6-Months-No-Interest-Financing">
                         <a> No Intereste if Paid in Full in 6 Month</a>
                       </Link>
                     </h2>
@@ -120,7 +111,7 @@ const CourseThree = () => {
                 <div className="course-one__single color-4">
                   <div className="course-one__image">
                     <img
-                      src="/assets/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
+                      src="/assets/images/high-view/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
                       alt="GreenSky Financing For High View's Seamless Gutters Services 138 Months Extended Financing"
                     />
                   </div>
@@ -164,7 +155,7 @@ const CourseThree = () => {
                 <div className="course-one__single color-3">
                   <div className="course-one__image">
                     <img
-                      src="/assets/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
+                      src="/assets/images/high-view/img/High-View-Finance-With-GreenSky-Logo-370x243.png"
                       alt="GreenSky Financing For High View's Seamless Gutters Services 12 Months Interest Free Financing"
                     />
                   </div>
