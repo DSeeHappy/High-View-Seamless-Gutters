@@ -6,17 +6,17 @@ import AboutOne from "../../components/AboutOne";
 import Footer from "../../components/core/Footer";
 import TeamTab from "../../components/TeamTab";
 import TestimonialOne from "../../components/TestimonialOne";
-import CallToActionOne from "../../components/CallToActionOne";
+import GilbertoAboutCTA from "../../components/GilbertoAboutCTA";
+import GilbertoContactAbout from './../../components/GilbertoContactAbout';
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="Gilberto Sanchez || High View's Seamless Gutters || About">
       <NavThree />
       <PageHeader title="Gilberto Sanchez" />
-      <AboutOne />
-      <TeamTab />
+      <GilbertoAboutCTA />
+      <GilbertoContactAbout />
       <TestimonialOne />
-      <CallToActionOne />
       <Footer />
     </Layout>
   );

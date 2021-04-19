@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="contact-info-one">
+      <section className="contact-info-one">``
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -13,8 +13,8 @@ const Contact = () => {
                 </div>
                 <h2 className="contact-info-one__title">About Me </h2>
                 <p className="contact-info-one__text">
-                  Co-Owner of High View's Seamless Gutters. Sam Avila dedicates
-                  himself to high quality customer service.
+                  Co-Owner of High View's Seamless Gutters. Gilberto Sanchez dedicates
+                  himself to high-quality seamless gutter services.
                 </p>
                 <hr />
                 <p className="contact-info-one__text">
@@ -38,9 +38,9 @@ const Contact = () => {
                   <i className="kipso-icon-contact"></i>
                 </div>
                 <h2 className="contact-info-one__title">Contact Info</h2>
-                <a href="mailto:samavila@coloradogutter.com">
+                <a href="mailto:gilbertosanchez@coloradogutter.com">
                   <p className="contact-info-one__text">
-                    SamAvila@ColoradoGutter.com
+                    GilbertoSanchez@ColoradoGutter.com
                   </p>
                 </a>
                 <br />
@@ -50,8 +50,8 @@ const Contact = () => {
                   </p>
                 </a>{" "}
                 <br />
-                <a href="tel:720-854-5683">
-                  <p className="contact-info-one__text">Cell: (720) 854-5683</p>
+                <a href="tel:720-712-4815">
+                  <p className="contact-info-one__text">Cell: (720) 712-4815</p>
                 </a>{" "}
               </div>
             </div>
