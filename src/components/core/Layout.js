@@ -61,7 +61,7 @@ const Layout = (props) => {
         <meta
           property="og:image"
           alt="High View's Seamless Gutters Denver CO Cleaning Installation Services"
-          content="https://high-view-construction.s3-us-west-2.amazonaws.com/High-View-Seamless-Gutters_CO_Denver-1200x628.png"
+          content="https://high-view-construction.s3-us-west-2.amazonaws.com/High-Views-Seamless-Gutters-LeafBlaster-Gutter-Guards-1200x628.png"
         />
 
         <meta
@@ -93,7 +93,7 @@ const Layout = (props) => {
         <meta
           property="twitter:image"
           alt="High View's Seamless Gutters Denver CO Cleaning Installation Services"
-          content="https://high-view-construction.s3-us-west-2.amazonaws.com/High-View-Seamless-Gutters_CO_Denver-1200x628.png"
+          content="https://high-view-construction.s3-us-west-2.amazonaws.com/High-Views-Seamless-Gutters-LeafBlaster-Gutter-Guards-1200x628.png"
         ></meta>
         <meta
           property="twitter:image:alt"
