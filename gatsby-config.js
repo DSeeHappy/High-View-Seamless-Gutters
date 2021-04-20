@@ -20,6 +20,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mixpanel',
+      options: {
+        apiToken: 'aa5d14e0a7528a1548079f240e234fab', // required
+      },
+    },
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `l0xu8zlvprjp`,
