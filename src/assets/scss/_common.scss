@@ -70,6 +70,23 @@ a:visited {
         color: $thm-black;
     }
 }
+.thm-btn-2 {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    background-color: $thm-base-color-2;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding: 6.5px 27px;
+    transition: all .4s ease;
+
+    &:hover {
+        background-color: #fff;
+        color: $thm-black;
+    }
+}
 
 .post-pagination {
     display: flex;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import cta1 from "../assets/images/cta-1.jpg";
 class CallToActionThree extends Component {
   render() {
     return (
@@ -7,32 +7,24 @@ class CallToActionThree extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 clearfix">
-              <img
-                src="/assets/images/cta-1.jpg"
-                className="cta-three__image"
-                alt=""
-              />
+              <img src={cta1} className="cta-three__image" alt="" />
             </div>
             <div className="col-lg-6">
               <div className="cta-three__content">
                 <div className="block-title text-left">
-                  <h2 className="block-title__title">
-                    <span>Owner </span> | Gilberto Sanchez
-                  </h2>
-                  <hr />
+                  <h2 className="block-title__title">We love referrals! </h2>
                 </div>
                 <p className="cta-three__text">
-                  Local Service Professional, he always makes sure you are 100%
-                  satisfied. Co-Owner with Sam Avila, Gilberto dedicates himself
-                  to high-quality seamless gutter installation. Ensuring that
-                  every homeowner receives the best in quality service.
+                  We only believe in referring someone you can trust. If we have
+                  won over your trust, tell your friends, family and co-workers
+                  about the quality service we provide.
                 </p>
                 <hr />
                 <p className="cta-three__text">
-                  Only providing high quality service, increasing your home's
-                  longevity.
+                  We strive to provide the highest-quality service in Colorado. <br/>
+                  If you've enjoyed our service, feel free to share that experience.
                 </p>
-                <div className="cta-three__single-wrap">
+                    <div className="cta-three__single-wrap">
                   <div className="cta-three__single">
                     <i class="fas fa-mobile-alt"></i>{" "}
                     <p className="cta-three__single-text">Simple</p>
@@ -47,20 +39,7 @@ class CallToActionThree extends Component {
                     <p className="cta-three__single-text">Clean</p>
                   </div>
                 </div>
-
-                <a
-                  target="__blank"
-                  href="https://high-view-construction.s3-us-west-2.amazonaws.com/High-View-Gilberto-Sanchez.vcf"
-                  className="thm-btn-2"
-                >
-                  Click to Save My Business Card!
-                </a>
-                <hr />
-                <a
-                  href="https://g.page/High-View-Seamless-Gutter-CO/review?rc"
-                  target="__blank"
-                  className="thm-btn"
-                >
+                <a href="https://g.page/High-View-Seamless-Gutter-CO/review?rc" target="__blank" className="thm-btn">
                   Leave us a Review!
                 </a>
               </div>

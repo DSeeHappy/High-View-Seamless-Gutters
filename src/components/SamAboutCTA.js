@@ -47,14 +47,22 @@ class CallToActionThree extends Component {
                     <p className="cta-three__single-text">Clean</p>
                   </div>
                 </div>
-              
 
                 <a
                   target="__blank"
                   href="https://high-view-construction.s3-us-west-2.amazonaws.com/High-View-Sam-Avila.vcf"
+                  className="thm-btn-2"
+                >
+                  Save My Business Card!
+                </a>
+                <hr/>
+
+                <a
+                  href="https://g.page/High-View-Seamless-Gutter-CO/review?rc"
+                  target="__blank"
                   className="thm-btn"
                 >
-                  Click to Save My Business Card!
+                  Leave us a Review!
                 </a>
               </div>
             </div>
