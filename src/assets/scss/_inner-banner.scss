@@ -1,5 +1,5 @@
 .inner-banner {
-    background-color: #011928;
+    background-color: $thm-base-color;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +13,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #011928;
+        background-color: $thm-base-color;
         opacity: 0.5;
     }
 
@@ -23,7 +23,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 169px;
+        padding-top: 15rem;
+        padding-bottom: 2rem;
     }
 }
 
