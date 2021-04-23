@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "gatsby";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
 import slidestrech from "../assets/images/slider-1-scratch.png";
@@ -25,9 +26,7 @@ const SliderOne = () => {
         <Swiper getSwiper={setSwiper}>
           <div className="banner-one__slide banner-one__slide-one">
             <div className="container">
-              <div className="banner-one__bubble-1"></div>
-              <div className="banner-one__bubble-2"></div>
-              <div className="banner-one__bubble-3"></div>
+             
               <img src={person1} className="banner-one__person" alt="" />
               <div className="row no-gutters">
                 <div className="col-xl-12">
@@ -38,18 +37,17 @@ const SliderOne = () => {
                     Everything installed by us is ready to stand the weather
                     here in Colorado
                   </p>
-                  <a href="#none" className="thm-btn banner-one__btn">
+                  
+                  <Link to="/gallery" className="thm-btn banner-one__btn">
                     Check out our Previous Work!
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="banner-one__slide banner-one__slide-two">
             <div className="container">
-              <div className="banner-one__bubble-1"></div>
-              <div className="banner-one__bubble-2"></div>
-              <div className="banner-one__bubble-3"></div>
+             
               <img src={person2} className="banner-one__person" alt="" />
               <div className="row no-gutters">
                 <div className="col-xl-12">
@@ -60,9 +58,9 @@ const SliderOne = () => {
                     Everything installed by us is ready to stand the weather
                     here in Colorado
                   </p>
-                  <a href="#none" className="thm-btn banner-one__btn">
+                  <Link to="/gallery" className="thm-btn banner-one__btn">
                     Check out our Previous Work!
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -91,17 +89,19 @@ const SliderOne = () => {
       </div>
       <div className="banner-one__cta">
         <div className="banner-one__cta-icon">
-          <i class="fas fa-donate"></i>{" "}
+          <i class="fas fa-donate"></i>
         </div>
         <div className="banner-one__cta-title">
           <h3 className="banner-one__cta-text">
-            <a href="#none">Financing available up to $65,000, Find out more</a>
+            <Link to="/financing">
+              Financing available up to $65,000, Find out more
+            </Link>
           </h3>
         </div>
         <div className="banner-one__cta-link">
-          <a href="#none">
+          <Link to="/financing">
             <i className="kipso-icon-right-arrow"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
