@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby";
 import logo from "../../assets/images/high-view/img/High-View-Logo-White.png";
 class NavThree extends Component {
@@ -66,8 +67,10 @@ class NavThree extends Component {
           <div className="container clearfix">
             <div className="logo-box clearfix">
               <Link to="/" className="navbar-brand">
-                <img
-                  src={logo}
+                <StaticImage
+                  src= "../../assets/images/high-view/img/High-View-Logo-White.png"
+                  placeholder="blurred"
+
                   className="main-logo"
                   width="128"
                   alt="High View's Seamless Gutters Denver Colorado Logo"
