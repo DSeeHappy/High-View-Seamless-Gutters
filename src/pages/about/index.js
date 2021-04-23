@@ -14,7 +14,7 @@ const AboutPage = () => {
     return (
         <Layout pageTitle="High View's Seamless Gutters | About">
             <NavOne />
-            <PageHeader title="About" />
+            <PageHeader title="About" section="About"/>
             <AboutOne />
             <TeamOne />
             <TestimonialOne />

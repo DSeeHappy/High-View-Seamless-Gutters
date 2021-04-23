@@ -10,7 +10,7 @@ const Services = () => {
     <>
       <Layout pageTitle="High View's Seamless Gutters | Services">
         <NavThree />
-        <PageHeader title="Services" />
+        <PageHeader title="Services" section="Services"/>
         <ServicesList/>
         <Footer />
       </Layout>{" "}

@@ -11,7 +11,7 @@ const CommercialPage = () => {
   return (
     <Layout pageTitle="High View's Seamless Gutters | Commercial">
       <NavThree />
-      <PageHeader title="Commercial" />
+      <PageHeader title="Commercial Services" section="Commercial Services"/>
       <BecomeTeacher />
       <CourseCatThree />
       <Footer />

@@ -11,7 +11,7 @@ const GilbertoSanchezReferrals = () => {
     <>
       <Layout pageTitle="High View's Seamless Gutters | Referrals">
         <NavThree />
-        <PageHeader title="Referrals" />
+        <PageHeader title="Referrals" section="Referrals"/>
         <GilbertoAboutCTA/>
         <Promo5Off/>
         <Footer />

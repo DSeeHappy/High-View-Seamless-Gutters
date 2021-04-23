@@ -31,7 +31,7 @@ const PageHeader = (props) => {
           // This centers the other elements inside the hero component
           placeItems: "center",
           display: "grid",
-          backgroundColor:"rgba(1, 34, 55, 0.6)"
+          backgroundColor:"rgba(1, 34, 55, 0.9)"
 
         }}
       >
@@ -42,7 +42,7 @@ const PageHeader = (props) => {
               <Link to="/">Home</Link>
             </li>
             <li className="active">
-              <a href="#none">{props.title}</a>
+              <a href="#none">{props.section}</a>
             </li>
           </ul>
           <h2 className="inner-banner__title">{props.title}</h2>

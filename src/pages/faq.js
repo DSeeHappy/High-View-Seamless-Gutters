@@ -9,7 +9,7 @@ const FaqPage = () => {
     return (
         <Layout pageTitle="High View's Seamless Gutters | FAQ">
             <NavOne />
-            <PageHeader title="FAQ" />
+            <PageHeader title="FAQ" section="FAQ"/>
             <Faq />
             <Footer />
         </Layout>

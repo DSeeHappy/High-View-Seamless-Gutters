@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="Gilberto Sanchez || High View's Seamless Gutters || About">
       <NavThree />
-      <PageHeader title="Gilberto Sanchez" />
+      <PageHeader title="Gilberto Sanchez" section="About"/>
       <GilbertoAboutCTA />
       <GilbertoContactAbout />
       <TestimonialOne />

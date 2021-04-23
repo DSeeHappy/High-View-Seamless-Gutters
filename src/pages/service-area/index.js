@@ -10,7 +10,7 @@ const ServiceArea = () => {
     <>
       <Layout pageTitle="High View's Seamless Gutters | Gallery">
         <NavThree />
-        <PageHeader title="Service Area" />
+        <PageHeader title="Service Area" section="Service Area"/>
         <ServiceAreaSection />
         <Footer />
       </Layout>{" "}

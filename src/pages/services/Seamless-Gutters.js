@@ -15,7 +15,7 @@ const SeamlessGutters = () => {
     <>
       <Layout pageTitle="High View's Seamless Gutters | Seamless Gutters">
         <NavThree />
-        <PageHeader title="Seamless Gutters" />
+        <PageHeader title="Seamless Gutters" section="Services"/>
         <TopBar/>
         <SeamlessGuttersCTA/>
         <SeamlessGutter2/>

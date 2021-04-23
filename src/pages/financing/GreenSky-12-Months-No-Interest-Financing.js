@@ -10,7 +10,7 @@ const FinancingPage = () => {
   return (
     <Layout pageTitle="GreenSky 12-Months No-Interest Financing | High View's Seamless Gutters | Financing">
       <NavThree />
-      <PageHeader title="12-Months No-Interest" />
+      <PageHeader title="12-Months No-Interest" section="Financing" />
       <FinancingDetails
         title="12-Months No-Interest Financing"
         financeURL="https://projects.greensky.com/MerchantLoanApplication?apptype=short&merchant=81078210&dealerplan=4123&channel=External-Button-03"

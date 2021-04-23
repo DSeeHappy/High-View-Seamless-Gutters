@@ -12,7 +12,7 @@ const Referrals = () => {
       <Layout pageTitle="High View's Seamless Gutters | Referrals">
         <NavThree />
 
-        <PageHeader title="Referrals" />
+        <PageHeader title="Referrals" section="Referrals"/>
         <CTAReferrals />
         <Promo2 />
         <Footer />

@@ -10,7 +10,7 @@ const FasciaSoffit = () => {
     <>
       <Layout pageTitle="High View's Seamless Gutters | Fascia &amp; Soffit">
         <NavThree />
-        <PageHeader title="Fascia &amp; Soffit" />
+        <PageHeader title="Fascia &amp; Soffit" section="Services"/>
         <Footer />
       </Layout>{" "}
     </>

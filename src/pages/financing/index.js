@@ -10,7 +10,7 @@ const FinancingPage = () => {
   return (
     <Layout pageTitle="High View's Seamless Gutters | Financing">
       <NavThree />
-      <PageHeader title="Financing" />
+      <PageHeader title="Financing" section="Financing"/>
       <FinanceSelect />
       <Footer />
     </Layout>

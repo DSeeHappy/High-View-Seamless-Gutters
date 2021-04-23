@@ -9,7 +9,7 @@ const GalleryPage = () => {
     return (
         <Layout pageTitle="High View's Seamless Gutters | Gallery">
             <NavOne />
-            <PageHeader title="Gallery" />
+            <PageHeader title="Gallery" section="Gallery"/>
             <Gallery />
             <Footer />
         </Layout>
