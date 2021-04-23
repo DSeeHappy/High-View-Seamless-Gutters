@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import logo from "../../assets/images/high-view/img/High-View-Logo-White.png";
 class NavThree extends Component {
@@ -68,9 +68,8 @@ class NavThree extends Component {
             <div className="logo-box clearfix">
               <Link to="/" className="navbar-brand">
                 <StaticImage
-                  src= "../../assets/images/high-view/img/High-View-Logo-White.png"
-                  placeholder="blurred"
-
+                  src="../../assets/images/high-view/img/High-View-Logo-White.png"
+                  placeholder="tracedSVG"
                   className="main-logo"
                   width="128"
                   alt="High View's Seamless Gutters Denver Colorado Logo"
@@ -86,7 +85,9 @@ class NavThree extends Component {
                   <Link to="/services">Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/services/Seamless-Gutters">Seamless Gutters</Link>
+                      <Link to="/services/Seamless-Gutters">
+                        Seamless Gutters
+                      </Link>
                     </li>
                     <li>
                       <Link to="/services/Gutter-Guards">Gutter Guards</Link>
@@ -95,7 +96,9 @@ class NavThree extends Component {
                       <Link to="/services/French-Drains">French Drains</Link>
                     </li>
                     <li>
-                      <Link to="/services/Fascia-Soffit">Fascia &amp; Soffit</Link>
+                      <Link to="/services/Fascia-Soffit">
+                        Fascia &amp; Soffit
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -114,19 +117,24 @@ class NavThree extends Component {
                     <li>
                       <Link to="/about/Sam-Avila">Sam Avila</Link>
                     </li>
-                    
                   </ul>
                 </li>
                 <li>
                   <Link to="/gallery">Portfolio</Link>
                   <ul className="sub-menu">
                     <li>
-                      <a target="__blank" href="https://www.instagram.com/HighViewSeamlessGutters/">
+                      <a
+                        target="__blank"
+                        href="https://www.instagram.com/HighViewSeamlessGutters/"
+                      >
                         Instagram
                       </a>
                     </li>
                     <li>
-                      <a target="__blank" href="https://www.facebook.com/HighViewSeamlessGutters">
+                      <a
+                        target="__blank"
+                        href="https://www.facebook.com/HighViewSeamlessGutters"
+                      >
                         Facebook
                       </a>
                     </li>
@@ -159,14 +167,14 @@ class NavThree extends Component {
             </div>
             <div className="right-side-box">
               <div className="header__social">
-                <a href="#none">
+                <a href="https://twitter.com/HighViewGutters">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#none">
+                <a href="https://www.facebook.com/HighViewSeamlessGutters">
                   <i className="fab fa-facebook-square"></i>
                 </a>
 
-                <a href="#none">
+                <a href="https://www.instagram.com/HighViewSeamlessGutters/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

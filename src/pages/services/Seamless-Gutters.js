@@ -5,7 +5,7 @@ import Footer from "../../components/core/Footer";
 import SeamlessGuttersCTA from "../../components/SeamlessGuttersCTA";
 import TopBar from "../../components/ServicesBar";
 import SeamlessGutter2 from "../../components/SeamlessGutter2";
-import CTA from "../../components/CallToActionThree";
+import CTAGutterInfo from "../../components/CTAGutterInfo";
 import CourseOne from "../../components/Pricing";
 import GutterFaq from "../../components/GutterFaq";
 import NavThree from "../../components/core/NavThree";
@@ -18,8 +18,7 @@ const SeamlessGutters = () => {
         <PageHeader title="Seamless Gutters" section="Services"/>
         <TopBar/>
         <SeamlessGuttersCTA/>
-        <SeamlessGutter2/>
-        <CTA/>
+        <CTAGutterInfo/>
         <CourseOne/>
         <GutterFaq/>
         <Footer />
