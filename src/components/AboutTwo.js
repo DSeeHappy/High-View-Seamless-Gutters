@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import about1 from "../assets/images/high-view/img/High-Views-Seamless-Gutters-Gutter-Close-Up-529x529.png";
-import { Link } from 'gatsby';
+import { Link } from "gatsby";
 export default class AboutTwo extends Component {
   constructor() {
     super();
@@ -39,8 +39,8 @@ export default class AboutTwo extends Component {
                   extra mile to make your experience as enjoyable and
                   stress-free as possible.
                 </p>
-<br/>
-                <Link href="#none" className="thm-btn">
+                <br />
+                <Link to="/services" className="thm-btn">
                   Check out our Services!
                 </Link>
               </div>
@@ -58,7 +58,7 @@ export default class AboutTwo extends Component {
                         offset={{ top: 10 }}
                         delayedCall
                       >
-                        <CountUp end={this.state.startCounter ? 2548 : 0} />
+                        <CountUp end={this.state.startCounter ? 4548 : 0} />
                       </VisibilitySensor>
                     </span>
                   </div>

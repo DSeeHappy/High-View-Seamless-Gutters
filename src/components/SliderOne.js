@@ -31,7 +31,7 @@ const SliderOne = () => {
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    Let our Gutter Pros <br /> take care of your gutters
+                    Let our Gutter Pro's <br /> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
                     Everything installed by us is ready to stand the weather
@@ -52,7 +52,7 @@ const SliderOne = () => {
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    Let our Gutter Pros <br /> take care of your gutters
+                    Let our Gutter Pro's <br /> take care of your gutters
                   </h3>
                   <p className="banner-one__tag-line">
                     Everything installed by us is ready to stand the weather
@@ -67,26 +67,7 @@ const SliderOne = () => {
           </div>
         </Swiper>
       </section>
-      <div className="banner-carousel-btn">
-        <div
-          onClick={goPrev}
-          onKeyUp={goPrev}
-          tabIndex={0}
-          role="button"
-          className="banner-carousel-btn__left-btn banner-arrow"
-        >
-          <i className="kipso-icon-left-arrow"></i>
-        </div>
-        <div
-          onClick={goNext}
-          onKeyDown={goNext}
-          role="button"
-          tabIndex={0}
-          className="banner-carousel-btn__right-btn banner-arrow"
-        >
-          <i className="kipso-icon-right-arrow"></i>
-        </div>
-      </div>
+  
       <div className="banner-one__cta">
         <div className="banner-one__cta-icon">
           <i class="fas fa-donate"></i>
