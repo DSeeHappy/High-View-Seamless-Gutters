@@ -4,7 +4,7 @@ import PageHeader from "../../components/PageHeader";
 import Footer from "../../components/core/Footer";
 import Promo2 from "../../components/Promo2";
 import NavThree from "../../components/core/NavThree";
-import CTAReferrals from "./../../components/CTAReferrals";
+import CTAReferrals from "../../components/CTAReferrals";
 
 const Referrals = () => {
   return (
