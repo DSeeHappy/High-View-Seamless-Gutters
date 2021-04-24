@@ -7,7 +7,7 @@ import Footer from "../../components/core/Footer";
 import TeamTab from "../../components/TeamTab";
 import TestimonialOne from "../../components/TestimonialOne";
 import GilbertoAboutCTA from "../../components/GilbertoAboutCTA";
-import GilbertoContactAbout from './../../components/GilbertoContactAbout';
+import GilbertoContactAbout from '../../components/GilbertoContactAbout';
 
 const AboutPage = () => {
   return (

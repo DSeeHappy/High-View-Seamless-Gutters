@@ -7,7 +7,7 @@ import Footer from "../../components/core/Footer";
 import TeamTab from "../../components/TeamTab";
 import TestimonialOne from "../../components/TestimonialOne";
 import SamAboutCTA from "../../components/SamAboutCTA";
-import SamContactAbout from './../../components/SamContactAbout';
+import SamContactAbout from '../../components/SamContactAbout';
 
 const AboutPage = () => {
   return (
