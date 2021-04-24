@@ -42,7 +42,7 @@ const PageHeader = (props) => {
               <Link to="/">Home</Link>
             </li>
             <li className="active">
-              <a href="#none">{props.section}</a>
+              <Link to={`/${props.section}`}>{props.section}</Link>
             </li>
           </ul>
           <h2 className="inner-banner__title">{props.title}</h2>
