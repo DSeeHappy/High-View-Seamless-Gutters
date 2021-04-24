@@ -4,6 +4,7 @@ import NavOne from "../../components/NavOne";
 import PageHeader from "../../components/PageHeader";
 import Footer from "../../components/core/Footer";
 import FinancingDetails from "../../components/FinancingDetails";
+import FinanceBar from "../../components/FinanceBar";
 import NavThree from "../../components/core/NavThree";
 
 const FinancingPage = () => {
@@ -11,6 +12,7 @@ const FinancingPage = () => {
     <Layout pageTitle="GreenSky 138-Months Extended-Financing | High View's Seamless Gutters | Financing">
       <NavThree />
       <PageHeader title="138-Month's Extended Financing" section="Financing" />
+      <FinanceBar/>
       <FinancingDetails
         title="138-Month's Extended Financing"
         financeURL="https://projects.greensky.com/MerchantLoanApplication?apptype=short&merchant=81078210&dealerplan=1389&channel=External-Button-03"

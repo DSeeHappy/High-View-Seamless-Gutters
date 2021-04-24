@@ -5,12 +5,15 @@ import PageHeader from "../../components/PageHeader";
 import Footer from "../../components/core/Footer";
 import FinancingDetails from "../../components/FinancingDetails";
 import NavThree from "../../components/core/NavThree";
+import FinanceBar from "../../components/FinanceBar";
 
 const FinancingPage = () => {
   return (
     <Layout pageTitle="GreenSky 12-Months No-Interest Financing | High View's Seamless Gutters | Financing">
       <NavThree />
       <PageHeader title="12-Months No-Interest" section="Financing" />
+      <FinanceBar/>
+
       <FinancingDetails
         title="12-Months No-Interest Financing"
         financeURL="https://projects.greensky.com/MerchantLoanApplication?apptype=short&merchant=81078210&dealerplan=4123&channel=External-Button-03"
