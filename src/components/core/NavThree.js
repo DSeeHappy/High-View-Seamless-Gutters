@@ -54,8 +54,18 @@ class NavThree extends Component {
               <a href="tel:720-741-2300">(720) 741-2300</a>
             </div>
             <div className="topbar-one__right">
-              <a href="#none">Login</a>
-              <a href="#none">Register</a>
+              <a
+                target="__blank"
+                href="https://highviewsseamlessgutters.hbportal.co/app/"
+              >
+                Login
+              </a>
+              <a
+                target="__blank"
+                href="https://book.housecallpro.com/book/High-view-seamless-gutters/c03bbfa024d84f109c8e4e6af991bec4"
+              >
+                Schedule Online!
+              </a>
             </div>
           </div>
         </div>
