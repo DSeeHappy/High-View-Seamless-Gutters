@@ -11,7 +11,7 @@ const ServicesBar = () => {
         </div>
         <div className="topbar-one__right">
           <Link to="/services/Fascia-Soffit">Fascia &amp; Soffit</Link>
-          <Link to="/services/French-Drains">French Drains</Link>
+          <Link to="/services/Gutter-Cleaning">Gutter Cleaning</Link>
         </div>
       </div>
     </div>

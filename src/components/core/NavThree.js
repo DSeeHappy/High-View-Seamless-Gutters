@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import logo from "../../assets/images/high-view/img/High-View-Logo-White.png";
+
 class NavThree extends Component {
   constructor() {
     super();
@@ -103,7 +103,9 @@ class NavThree extends Component {
                       <Link to="/services/Gutter-Guards">Gutter Guards</Link>
                     </li>
                     <li>
-                      <Link to="/services/French-Drains">French Drains</Link>
+                      <Link to="/services/Gutter-Cleaning">
+                        Gutter Cleaning
+                      </Link>
                     </li>
                     <li>
                       <Link to="/services/Fascia-Soffit">

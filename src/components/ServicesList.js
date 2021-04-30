@@ -98,22 +98,22 @@ const Courses = () => {
                 <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
-                <Link to="/services/French-Drains" className="course-one__category">
+                <Link to="/services/Gutter-Cleaning" className="course-one__category">
                   Repair, Installation, Cleaning
                 </Link>
 
                 <h2 className="course-one__title">
-                  <Link to="/services/French-Drains">French Drains</Link>
+                  <Link to="/services/Gutter-Cleaning">Gutter Cleaning</Link>
                 </h2>
 
                 <div className="course-one__meta">
-                  <Link to="/services/French-Drains">
+                  <Link to="/services/Gutter-Cleaning">
                     <i className="far fa-clock"></i>fast turnaround
                   </Link>
                   
                   <Link to="/Free-Online-Estimates">Free Online Estimates</Link>
                 </div>
-                <Link to="/services/French-Drains" className="course-one__link">
+                <Link to="/services/Gutter-Cleaning" className="course-one__link">
                   Find out more
                 </Link>
               </div>
