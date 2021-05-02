@@ -1,6 +1,6 @@
 import React from "react";
-import team1 from "../assets/images/team-1-1.jpg";
-import team2 from "../assets/images/team-1-2.jpg";
+import team1 from "../assets/images/high-view/img/High-Views-Seamless-Gutters-Gilberto-Sanchez-206x206.png";
+import team2 from "../assets/images/high-view/img/High-Views-Seamless-Gutters-Sam-Avila-206x206.png";
 import {Link} from "gatsby";
 const TeamOne = () => {
   return (

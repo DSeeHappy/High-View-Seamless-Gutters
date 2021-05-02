@@ -84,17 +84,17 @@ const CourseDetails = () => {
                   <br />
                   <ul className="list-unstyled course-details__overview-list">
                     <li>
-                      Our professionals provide quality maintenance services
+                      Our professionals provide quality maintenance services.
                     </li>
                     <li>
                       We provide simple maintenance packages, making your life
-                      easier
+                      easier.
                     </li>
                     <li>
                       Properly maintaining your gutters is part of your first
-                      line of defense against water damage
+                      line of defense against water damage.
                     </li>
-                    <li>We are insured</li>
+                    <li>We are insured.</li>
                   </ul>
                 </div>
                 <div

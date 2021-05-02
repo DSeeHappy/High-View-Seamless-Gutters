@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { StaticImage } from "gatsby-plugin-image";
 class CallToActionThree extends Component {
   render() {
     return (
@@ -7,8 +7,8 @@ class CallToActionThree extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 clearfix">
-              <img
-                src="/assets/images/cta-1.jpg"
+              <StaticImage
+                src="../assets/images/high-view/img/High-Views-Seamless-Gutters-Sam-Avila-LeafBlaster-Gutter-Guard-932x764.png"
                 className="cta-three__image"
                 alt=""
               />
@@ -55,7 +55,7 @@ class CallToActionThree extends Component {
                 >
                   Save My Business Card!
                 </a>
-                <hr/>
+                <hr />
 
                 <a
                   href="https://g.page/High-View-Seamless-Gutter-CO/review?rc"
