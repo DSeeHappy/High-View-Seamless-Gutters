@@ -20,7 +20,6 @@ const SeamlessGutters = () => {
         <SeamlessGuttersCTA/>
         <CTAGutterInfo/>
         <CourseOne/>
-        <GutterFaq/>
         <Footer />
       </Layout>
     </>
