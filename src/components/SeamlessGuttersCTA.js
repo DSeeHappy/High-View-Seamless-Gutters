@@ -59,7 +59,8 @@ class AboutOne extends Component {
           </p>
           <p className="about-one__review-text">
             Quality Installation, Security and Strength are the largest reasons
-            for choosing Seamless Gutters in Aluminum or Steel for Colorado's Weather.
+            for choosing Seamless Gutters in Aluminum or Steel for Colorado's
+            Weather.
           </p>
           <hr />
           <p className="about-one__text">
@@ -78,8 +79,8 @@ class AboutOne extends Component {
           </p>
 
           <p className="about-one__text">
-            Without a pushy sales tactic, only honest information. Changes which may
-            include installing a french drain when you don't have proper
+            Without a pushy sales tactic, only honest information. Changes which
+            may include installing a french drain when you don't have proper
             drainage, installation of Heat Cable if you find yourself with
             severe ice damming. Gutter Guard installations if you find yourself
             cleaning your gutters very often or hiring us for the same stubborn
@@ -87,16 +88,16 @@ class AboutOne extends Component {
           </p>
 
           <p className="about-one__text">
-            We understand gutters are a large part of your homes defense against water damage,
-            because if water doesn't flow away from your home's foundation and
-            into the sewer. You may be in for a larger issue than having a
-            drippy or clogged gutter.
+            We understand gutters are a large part of your homes defense against
+            water damage, because if water doesn't flow away from your home's
+            foundation and into the sewer. You may be in for a larger issue than
+            having a drippy or clogged gutter.
           </p>
           <a
-            href="https://book.housecallpro.com/book/High-view-seamless-gutters/c03bbfa024d84f109c8e4e6af991bec4"
+            href="https://www.honeybook.com/widget/high_views_seamless_gutters_181969/cf_id/60862db0c4c5061e9af930c8"
             className="thm-btn about-one__btn"
           >
-            Schedule Online!
+            Free Estimate{" "}
           </a>
         </div>
       </section>

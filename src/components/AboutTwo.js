@@ -40,7 +40,7 @@ export default class AboutTwo extends Component {
                   stress-free as possible.
                 </p>
 <br/>
-                <Link href="#none" className="thm-btn">
+                <Link href="/services" className="thm-btn">
                   Check out our Services!
                 </Link>
               </div>

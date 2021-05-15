@@ -61,7 +61,7 @@ class AboutOne extends Component {
             We want to make sure you’re 100% satisfied, and we go the extra mile
             to make your experience as enjoyable and stress-free as possible.
           </p>
-          <a href="#none" className="thm-btn about-one__btn">
+          <a href="https://www.honeybook.com/widget/high_views_seamless_gutters_181969/cf_id/60862db0c4c5061e9af930c8" className="thm-btn about-one__btn">
             Receive Your Free Online Quote!
           </a>
         </div>
