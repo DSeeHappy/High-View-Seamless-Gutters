@@ -60,12 +60,6 @@ class NavThree extends Component {
               >
                 Login
               </a>
-              <a
-                target="__blank"
-                href="https://book.housecallpro.com/book/High-view-seamless-gutters/c03bbfa024d84f109c8e4e6af991bec4"
-              >
-                Schedule Online!
-              </a>
             </div>
           </div>
         </div>
